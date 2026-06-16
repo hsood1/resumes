@@ -21,16 +21,15 @@ San Diego, CA | July 2022 – Present
 
 **Generative AI Data Pipeline Development**
 
-- Architected and implemented a scalable Azure data pipeline to ingest, classify, and route proprietary company documents from OnBase into Azure ADLS blobs, enabling production-ready AI-driven indexing
+- Architected and implemented a scalable Azure data pipeline that ingests, classifies, and routes 50,000+ proprietary documents into Azure ADLS, powering an LLM-driven indexing workflow and eliminating manual processing
 - Deployed durable Azure Functions with eternal orchestration to automatically process 50,000+ documents on initial load and an average of 50 additional documents per week; eliminated IT-dependent manual processes
-- Engineered fault tolerance via file-by-file orchestration, Azure Table state tracking, batch finalization to resolve race conditions, and scheduled data validation; achieved zero data loss across all environments
+- Engineered reliability into a live system via durable functions with eternal orchestration, Azure Table state tracking, batch finalization to resolve race conditions, and scheduled data validation; achieved zero data loss
 - Hardened pipeline with environment-driven configurability, Git-based version control, and local Linux testing to accommodate shifting upstream conventions and evolving requirements without service interruption
 - Use AI-assisted development tools (Claude Code, coding agents) daily within an agent-integrated workflow to investigate issues, refactor at scale, and extend platform capability as a small team
 
 **Flight Data Analysis**
 
-- Conducted 100+ flight log analyses — parsing telemetry data from a repository of 150,000+ logs across 14 UAV variants, each with 1,300+ signals — to support investigations, establish performance baselines, and train junior engineers
-- Develop custom event detection scripts and synthetic signals to identify behavioral patterns and anomalies across datasets spanning as many as 200,000 events per analysis
+- Conducted 100+ flight log analyses across a 150,000+ log repository (14 variants, 1,300+ signals each), building custom event-detection scripts and synthetic signals to identify patterns and anomalies across datasets of up to 200,000 events
 - Deliver tailored visualizations and Power BI dashboards scaled to dataset size and stakeholder needs, enabling engineering and program teams to interpret complex flight data and inform decisions
 - Ensure signal integrity across a diverse fleet by processing and filtering downlinked telemetry data using statistical outlier analysis, threshold-based detection, and aeronautical domain expertise
 
@@ -38,8 +37,6 @@ San Diego, CA | July 2022 – Present
 
 - Operate as an internal consultant on two to three multi-month RCA investigations per year, jumping into unfamiliar subsystems, rapidly becoming a domain expert, and delivering unbiased findings on failures that eluded other teams
 - Interface directly with internal engineering teams, program management, and external customers to define analysis requirements, present conclusions, and translate complex data insights into actionable decisions
-- Designed a preliminary data pipeline bridging engineering and manufacturing operations for a new aircraft program, enabling the machine shop to track part schedules; helped accelerate first flight to meet a year-long program timeline
-- Supplement data analysis with hands-on participation in operations including engine tests, starter generator inspections, and datalink troubleshooting to validate and contextualize results
 
 ### Co-Founder, Data & Infrastructure — chipsID LLC (IC Counterfeit Mitigation Services)
 San Diego, CA | July 2022 – Present
