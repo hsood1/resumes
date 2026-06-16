@@ -97,6 +97,11 @@ San Diego, CA | July 2022 – Present
 ### Co-Founder, Data & Infrastructure — chipsID LLC (IC Counterfeit Mitigation Services)
 San Diego, CA | July 2022 – Present
 
+**Mobile Application Development**
+
+- Designed and own chipsID's iOS app — built in React Native/TypeScript (Android planned) on a Python/FastAPI backend — with a thin-client REST architecture where the app holds no credentials and per-request access gating prevents leaking non-public part data <!-- roles:eng,ai -->
+- Built a repository-pattern seam for a planned datastore migration; shipped 90+ tests and containerized deployment via Google Cloud Run and EAS Build (TestFlight), built with AI-assisted development (Claude Code) <!-- roles:eng,ai | verify:test-count (90+ tests; ~46+47) -->
+
 **Database & Cloud Infrastructure Development**
 
 - Established GCP Cloud Storage infrastructure with automated Python backend to manage part image repositories, generate links, and orchestrate file uploads across buckets; enabled platform-agnostic image sourcing and fast retrieval <!-- roles:eng,data -->
