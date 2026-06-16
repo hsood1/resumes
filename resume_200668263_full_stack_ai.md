@@ -31,11 +31,15 @@ San Diego, CA | July 2022 – Present
 
 - Conducted 100+ flight log analyses — parsing telemetry data from a repository of 150,000+ logs across 14 UAV variants, each with 1,300+ signals — to support investigations, establish performance baselines, and train junior engineers
 - Develop custom event detection scripts and synthetic signals to identify behavioral patterns and anomalies across datasets spanning as many as 200,000 events per analysis
+- Deliver tailored visualizations and Power BI dashboards scaled to dataset size and stakeholder needs, enabling engineering and program teams to interpret complex flight data and inform decisions
 - Ensure signal integrity across a diverse fleet by processing and filtering downlinked telemetry data using statistical outlier analysis, threshold-based detection, and aeronautical domain expertise
 
 **Root Cause Analysis (RCA) & Cross-Functional Consulting**
 
 - Operate as an internal consultant on two to three multi-month RCA investigations per year, jumping into unfamiliar subsystems, rapidly becoming a domain expert, and delivering unbiased findings on failures that eluded other teams
+- Interface directly with internal engineering teams, program management, and external customers to define analysis requirements, present conclusions, and translate complex data insights into actionable decisions
+- Designed a preliminary data pipeline bridging engineering and manufacturing operations for a new aircraft program, enabling the machine shop to track part schedules; helped accelerate first flight to meet a year-long program timeline
+- Supplement data analysis with hands-on participation in operations including engine tests, starter generator inspections, and datalink troubleshooting to validate and contextualize results
 
 ### Co-Founder, Data & Infrastructure — chipsID LLC (IC Counterfeit Mitigation Services)
 San Diego, CA | July 2022 – Present
