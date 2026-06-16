@@ -44,8 +44,12 @@
   was intentionally excluded. It still lives in resume_harry_sood_master_20220530.docx
   if ever needed again.
 
-  ── OPEN REVIEW ITEMS ───────────────────────────────────────────────────────
-  • None. (JavaScript removed; chipsID bullet de-JS'd; rusty-tools block dropped.)
+  ── OPEN REVIEW ITEMS / DECISIONS ────────────────────────────────────────────
+  • chipsID mobile-app subsection added (iOS / React Native, Android planned).
+  • Test counts deliberately omitted everywhere — the test suite was authored by
+    Claude Code, not Harry; app bullets stay at "an automated test suite" (no numbers).
+  • JavaScript still excluded from Skills (not claimed unaided).
+  • conf:assisted marks work Harry designed/directed but Claude Code implemented.
 ═══════════════════════════════════════════════════════════════════════════
 -->
 
@@ -62,8 +66,8 @@ San Diego, CA | (901) 921-1040 | harry.hs.sood@gmail.com | US Citizen | Active D
 - **Programming:** Python (Pandas, NumPy, Matplotlib, SciPy, OpenPyXL) | SQL | MATLAB | C++ <!-- roles:eng,data -->
 - **Cloud & Infrastructure:** Azure (Functions, Durable Functions, ADLS, Blob Storage) | GCP (Cloud Storage, Google Sheets API) <!-- roles:eng,data,ai -->
 - **Data & Analytics:** Excel | Jupyter Notebooks | Power BI | ETL Pipeline Development | Statistical Analysis | Signal Processing <!-- roles:data,eng -->
-- **Tools & Software:** Visual Studio Code | Git | Windows, macOS, Linux | Microsoft Office Suite | Agile Workflow <!-- roles:all -->
-- **AI-Assisted Development:** Claude Code | coding agents (agent-integrated workflow) <!-- roles:ai,eng | conf:unaided (tool use) — include only on AI-targeted versions -->
+- **Tools & Software:** Visual Studio Code | Git | Windows, macOS, Linux | Microsoft Office Suite | Agile Workflow <!-- roles:all | note: "Microsoft Office Suite" is roles:pm,ops only — drop it from eng/ai exports -->
+- **AI-Assisted Development:** Claude Code | coding agents (agent-integrated workflow) <!-- roles:eng,ai | conf:unaided (tool use only) -->
 
 ---
 
@@ -92,15 +96,15 @@ San Diego, CA | July 2022 – Present
 - Operate as an internal consultant on two to three multi-month RCA investigations per year, jumping into unfamiliar subsystems, rapidly becoming a domain expert, and delivering unbiased findings on failures that eluded other teams <!-- roles:eng,data,pm | verify:rca-frequency (2–3 per year) -->
 - Interface directly with internal engineering teams, program management, and external customers to define analysis requirements, present conclusions, and translate complex data insights into actionable decisions <!-- roles:pm,ops,data -->
 - Designed a preliminary data pipeline bridging engineering and manufacturing operations for a new aircraft program, enabling the machine shop to track part schedules; helped accelerate first flight to meet a year-long program timeline <!-- roles:pm,ops,data | verify:program-timeline (year-long; first-flight contribution) -->
-- Supplement data analysis with hands-on participation in operations including engine tests, starter generator inspections, and datalink troubleshooting to validate and contextualize results <!-- roles:eng,ops -->
+- Supplement data analysis with hands-on participation in operations including engine tests, starter generator inspections, and datalink troubleshooting to validate and contextualize results <!-- roles:data,ops -->
 
 ### Co-Founder, Data & Infrastructure — chipsID LLC (IC Counterfeit Mitigation Services)
 San Diego, CA | July 2022 – Present
 
 **Mobile Application Development**
 
-- Designed and own chipsID's iOS app — built in React Native/TypeScript (Android planned) on a Python/FastAPI backend — with a thin-client REST architecture where the app holds no credentials and per-request access gating prevents leaking non-public part data <!-- roles:eng,ai -->
-- Built a repository-pattern seam for a planned datastore migration; shipped 90+ tests and containerized deployment via Google Cloud Run and EAS Build (TestFlight), built with AI-assisted development (Claude Code) <!-- roles:eng,ai | verify:test-count (90+ tests; ~46+47) -->
+- Designed and own chipsID's iOS app — built in React Native/TypeScript (Android planned) on a Python/FastAPI backend — with a thin-client REST architecture where the app holds no credentials and per-request access gating prevents leaking non-public part data <!-- roles:eng,ai | since:2025 | conf:assisted (design+architecture mine; implementation via Claude Code) -->
+- Built with AI-assisted development (Claude Code) — directed implementation and an automated test suite across frontend and backend, deployed via Google Cloud Run and EAS Build (TestFlight) <!-- roles:eng,ai | conf:assisted (all code/tests authored by Claude Code; my role was design + prompt direction) -->
 
 **Database & Cloud Infrastructure Development**
 
