@@ -22,7 +22,6 @@ San Diego, CA | July 2022 – Present
 **Generative AI Data Pipeline Development**
 
 - Architected and implemented a scalable Azure data pipeline that ingests, classifies, and routes 50,000+ proprietary documents into Azure ADLS, powering an LLM-driven indexing workflow and eliminating manual processing
-- Deployed durable Azure Functions with eternal orchestration to automatically process 50,000+ documents on initial load and an average of 50 additional documents per week; eliminated IT-dependent manual processes
 - Engineered reliability into a live system via durable functions with eternal orchestration, Azure Table state tracking, batch finalization to resolve race conditions, and scheduled data validation; achieved zero data loss
 - Hardened pipeline with environment-driven configurability, Git-based version control, and local Linux testing to accommodate shifting upstream conventions and evolving requirements without service interruption
 - Use AI-assisted development tools (Claude Code, coding agents) daily within an agent-integrated workflow to investigate issues, refactor at scale, and extend platform capability as a small team
