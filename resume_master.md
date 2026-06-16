@@ -103,7 +103,7 @@ San Diego, CA | July 2022 – Present
 
 **Mobile Application Development**
 
-- Designed and own chipsID's iOS app — built in React Native/TypeScript (Android planned) on a Python/FastAPI backend — with a thin-client REST architecture where the app holds no credentials and per-request access gating prevents leaking non-public part data <!-- roles:eng,ai | since:2025 | conf:assisted (design+architecture mine; implementation via Claude Code) -->
+- Designed and own chipsID's iOS app — built in React Native/TypeScript (Android planned) on a Python/FastAPI backend — with a thin-client REST architecture where the app holds no credentials and per-request access gating prevents leaking non-public part data <!-- roles:eng,ai | since:2026 | conf:assisted (design+architecture mine; implementation via Claude Code) -->
 - Built with AI-assisted development (Claude Code) — directed implementation and an automated test suite across frontend and backend, deployed via Google Cloud Run and EAS Build (TestFlight) <!-- roles:eng,ai | conf:assisted (all code/tests authored by Claude Code; my role was design + prompt direction) -->
 
 **Database & Cloud Infrastructure Development**
